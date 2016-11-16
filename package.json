@@ -1,0 +1,17 @@
+{
+  "name": "frogger Go",
+  "version": "0.1.0",
+  "description": "A chrome extension that provides quick access to frogger case URLs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jiawei LUO",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrkiddo/froggerGo"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
