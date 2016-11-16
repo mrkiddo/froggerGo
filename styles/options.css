@@ -1,0 +1,28 @@
+.container {
+	width: 400px;
+	margin: auto;
+	padding: 15px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+
+.container .title {
+	text-align: center;
+}
+
+.container .item {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.item.btn-wrap {
+	padding-top: 20px;
+}
+
+.item #save-settings {
+	display: inline-block;
+	width: 50%;
+	height: 30px;
+}

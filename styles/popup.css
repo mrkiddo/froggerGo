@@ -1,0 +1,48 @@
+body {
+    min-width: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+.container .title {
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: #779226;
+    color: #d8d9dd;
+}
+
+.container .item {
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.item input {
+    width: 100px;
+    border: 0;
+    border-bottom: 3px solid #ccc;
+    outline: none;
+    text-align: center;
+}
+
+.item .btn {
+    display: inline-block;
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 0;
+    outline: none;
+    background-color: #a0c432;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+a.btn {
+    text-decoration: none;
+    text-align: center;
+}
+
+.item #case-submit:hover {
+    background-color: #779226;
+}
